@@ -1,8 +1,7 @@
 import React from 'react'
 import "./OurClasses.css"
-import deadliftImg from "../../assets/deadlift.png"
 import cardio from "../../assets/cardio.jpg"
-import platesimage from "../../assets/Pilates.jpg"
+import pilates from "../../assets/pilates.jpg"
 import strength from "../../assets/strength.jpg"
 import crosfit from "../../assets/Crosfit.jpg"
 import yoga from "../../assets/yogaimage.jpg"
@@ -53,7 +52,7 @@ const OurClasses = () => {
 
                  {/* third */}
                  <div class="class">
-        <img src={platesimage} alt="class Image" class="class-image"/>
+        <img src={pilates} alt="class Image" class="class-image"/>
         <div class="class-content">
             <h3 className='text-xl font-bold'>Pilates</h3>
             <h1 className='text-2xl '>Flexibility Exercise</h1>
