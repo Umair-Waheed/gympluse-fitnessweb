@@ -1,0 +1,108 @@
+.priceplan-header{
+    padding-top: 25px;
+}
+.priceplan-header {
+    text-align: center;
+}
+.priceplan-header h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.priceplan-header p{
+    font-size: 14px;
+    
+    
+}
+.priceplan-container{
+    margin-top: 7%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* background-color: azure; */
+}
+
+.plan-card{
+    background-color: #2A2C31;
+    width: 30%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 20px; */   
+    border: 1px solid rgba(255, 255, 255, 0.219);
+}
+.plan-card-header h3{
+    color:#dddddd;
+
+}
+.second-plan-card.hover-effect{
+    box-shadow: none;
+    transform: none;
+    z-index: auto;
+    
+
+}
+.first-plan-card:hover, .third-plan-card:hover{
+        
+    box-shadow: 0px 0px 20px black;
+    transform: scale(1.05,1.15);
+    transition: 0.4s;
+    z-index: 2;
+
+}
+.plan-card-header{
+    padding: 25px;
+
+}
+.accessibilities{
+    margin-top: 15px;
+    padding: 25px;
+    
+}
+.access{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.access img{
+    width: 18px;
+    margin-right: 3px;
+}
+.access p{
+    font-size: 14px;
+    color:#dddddd;
+
+}
+.plan-btn{
+    margin-top: auto;
+    background-color: rgb(253, 9, 9);
+    text-align: center;
+    margin-left: 65%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 3px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+    
+}
+.plan-card:hover .plan-btn{
+    
+    text-align: center;
+    margin-left: 0%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: 0.4s;
+
+}
+
+.second-plan-card{
+    z-index: 1;
+    box-shadow: 0px 0px 20px black;
+    transform: scale(1.05,1.15);
+    transition: 0.4s;
+
+
+}

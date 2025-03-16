@@ -1,0 +1,50 @@
+.about{
+    padding-top: 25px;
+   
+}
+.about-h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.why-choose-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+
+}
+.why-choose-us{
+    width: 40%;
+}
+.milestones-section{
+    width: 40%;
+}
+.milestones-section h2,
+.why-choose-us h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+.why-choose-us p{
+    color: #e7e7e7;
+}
+.outerbar{
+    padding: 2px;
+    border: 1px solid white ;
+    border-radius: 10px;
+}
+.innerbar{
+    padding: 2px;
+    background-color: red;
+    border-radius: 15px;
+}
+.milestone{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.milestone p{
+    color: #e7e7e7;
+}
+
+

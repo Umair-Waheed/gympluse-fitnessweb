@@ -1,0 +1,57 @@
+.Feedback{
+    padding-top: 25px;
+    position: relative;
+}
+.Feedback h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Feedback-container{
+    margin-top: 40px;
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 10px;
+}
+
+.person-feedback{
+    flex:  0 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.arrow-buttons {
+    position: absolute;
+    top: 50%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.arrow-buttons button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    /* width: 100%; */
+    padding: 10px;
+    transition:  0.3s;
+}
+
+.arrow-buttons button:hover {
+    color: red; /* Change color on hover for better visual feedback */
+    transform: scale(1.1);
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+    
+}
