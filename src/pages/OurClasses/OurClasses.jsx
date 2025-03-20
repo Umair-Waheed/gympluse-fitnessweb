@@ -3,7 +3,7 @@ import "./OurClasses.css"
 import cardio from "../../assets/cardio.jpg"
 import pilates from "../../assets/pilates.jpg"
 import strength from "../../assets/strength.jpg"
-import crosfit from "../../assets/Crosfit.jpg"
+import crossfit from "../../assets/crossfit"
 import yoga from "../../assets/yogaimage.jpg"
 import hightintense from "../../assets/high-intensity-workout.jpg"
 import arrow from "../../assets/right-arrow.png"
@@ -84,7 +84,7 @@ const OurClasses = () => {
 
                  {/* fifth */}
                  <div class="class">
-        <img src={crosfit} alt="class Image" class="class-image"/>
+        <img src={crossfit} alt="class Image" class="class-image"/>
         <div class="class-content">
             <h3 className='text-xl font-bold'>CrossFit</h3>
             <h1 className='text-2xl '>Strength Training</h1>
