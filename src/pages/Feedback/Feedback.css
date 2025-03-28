@@ -49,3 +49,7 @@
     color: red; /* Change color on hover for better visual feedback */
     transform: scale(1.1);
 }
+
+.newsletter{
+    padding: 20px 0px;
+}

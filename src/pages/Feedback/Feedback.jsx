@@ -24,7 +24,7 @@ const Feedback = () => {
     }
   };
   return (
-    <div className='Feedback bg-[#2A2C31] text-white pl-20 pr-20'>
+    <div className='Feedback bg-[#2A2C31] text-white pl-20 pr-20 '>
         <h1>Our Client Feedbacks</h1>
 
         <div className="arrow-buttons">
