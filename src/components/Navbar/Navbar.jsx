@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from "../../assets/logo1.png"
 import "./Navbar.css"
+import { assets } from '../../assets/assets.js';
 const Navbar = ({scrollToSection, refs}) => {
   const { homeRef, aboutRef, servicesRef,trainerRef,shopRef } = refs;
 //   const nav = document.querySelector('navbar');
@@ -17,7 +17,7 @@ const Navbar = ({scrollToSection, refs}) => {
         <div className=" flex items-center justify-between h-full">
 
             {/* logo */}
-            <img className='h-24' src={Logo} alt="" />
+            <img className='h-24' src={assets.logo} alt="" />
 
             {/* middlebar */}
             <div className=" flex items-center list-none ">

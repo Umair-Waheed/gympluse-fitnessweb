@@ -1,19 +1,13 @@
 import React from 'react'
 import "./Footer.css"
-import logo from "../../assets/logo1.png"
-import phoneLogo from  "../../assets/phone.png"
-import mailLogo from  "../../assets/mail.png"
-import locationLogo from  "../../assets/location.png"
-import facebookLogo from  "../../assets/facebook1.png"
-import xthread from  "../../assets/x-thread.png"
-import instaLogo from  "../../assets/instagram1.png"
+import { assets } from '../../assets/assets.js'
 const Footer = () => {
   return (
     <div className='footer bg-black text-white pl-20 pr-20 '>
       <div className="footer-container">
 
         <div className="footer-logo ">
-          <img src={logo} alt="" />
+          <img src={assets.logo} alt="" />
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia suscipit repellendus ipsam, qui, illum odio obcaecati eius ducimus reprehenderit nemo aliquid, architecto deleniti nihil vel similique quos non earum voluptas.</p>
         </div>
 
@@ -33,15 +27,15 @@ const Footer = () => {
           <h2  className='text-xl bold mb-2 text-[red]'>Contacts</h2>
           <ul>
             <li>
-              <img src={phoneLogo} alt="" />
+              <img src={assets.phoneLogo} alt="" />
               <p>+032 5465 8790</p>
             </li>
             <li>
-              <img src={mailLogo} alt="" />
+              <img src={assets.mailLogo} alt="" />
               <p>gympulse@gmail.com</p>
             </li>
             <li>
-              <img src={locationLogo} alt="" />
+              <img src={assets.locationLogo} alt="" />
               <p>27 The Avenue London</p>
             </li>
           </ul>
@@ -50,9 +44,9 @@ const Footer = () => {
         <div className="follow-us">
           <h2 className='text-xl bold mb-2 mt-5 text-[red]'>Social Handles</h2>
           <div className='socialhandles'>
-          <img src={facebookLogo} alt="" />
-          <img src={xthread} alt="" />
-          <img src={instaLogo} alt="" />
+          <img src={assets.facebookLogo} alt="" />
+          <img src={assets.xthread} alt="" />
+          <img src={assets.instaLogo} alt="" />
           </div>
         </div>
 

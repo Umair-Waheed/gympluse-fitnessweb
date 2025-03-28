@@ -1,11 +1,7 @@
 import React from 'react'
 import "./Trainer.css"
-import mantrainer1 from "../../assets/mantrainer1.jpg"
-import mantrainer2 from "../../assets/mantrainer2.0.jpg"
-import mantrainer3 from "../../assets/mantrainer3.jpg"
-import mantrainer4 from "../../assets/mantrainer4.jpg"
-import girltrainer from "../../assets/girltrainer.jpg"
-import girltrainer2 from "../../assets/girltrainer2.jpg"
+import {assets} from "../../assets/assets.js"
+
 
 const Trainer = ({trainerRef}) => {
   return (
@@ -16,7 +12,7 @@ const Trainer = ({trainerRef}) => {
 
             {/* firstcard */}
         <div className="trainer-card">
-    <img src={mantrainer1} alt="Card Image"/>
+    <img src={assets.mantrainer1} alt="Card Image"/>
     <h2>Ethan Brooks</h2>
     <div className="trainer-content">
         <p>Personal Nutritional</p>
@@ -36,7 +32,7 @@ const Trainer = ({trainerRef}) => {
                 {/* second-card */}
 
                 <div className="trainer-card">
-    <img src={girltrainer} alt="Card Image"/>
+    <img src={assets.girltrainer} alt="Card Image"/>
     <h2>Sophia Thompson</h2>
     <div className="trainer-content">
         <p>Functional Training & Flexibility</p>
@@ -55,7 +51,7 @@ const Trainer = ({trainerRef}) => {
  {/* third card */}
 
  <div className="trainer-card">
-    <img src={mantrainer2} alt="Card Image"/>
+    <img src={assets.mantrainer2} alt="Card Image"/>
     <h2>Jordan</h2>
     <div className="trainer-content">
         <p>BodyBuilding</p>
@@ -75,7 +71,7 @@ const Trainer = ({trainerRef}) => {
  {/* four-card */}
 
  <div className="trainer-card">
-    <img src={mantrainer3} alt="Card Image"/>
+    <img src={assets.mantrainer3} alt="Card Image"/>
     <h2>Jake Ross</h2>
     <div className="trainer-content">
         <p>Pilates & Core Fitness</p>
@@ -94,7 +90,7 @@ const Trainer = ({trainerRef}) => {
  {/* fifth-card */}
 
  <div className="trainer-card">
-    <img src={girltrainer2} alt="Card Image"/>
+    <img src={assets.girltrainer2} alt="Card Image"/>
     <h2>Emma Lee</h2>
     <div className="trainer-content">
         <p>Yoga & Recovery Training</p>
@@ -113,7 +109,7 @@ const Trainer = ({trainerRef}) => {
  {/* sixth-card */}
 
  <div className="trainer-card">
-    <img src={mantrainer4} alt="Card Image"/>
+    <img src={assets.mantrainer4} alt="Card Image"/>
     <h2>Dan Gray</h2>
     <div className="trainer-content">
         <p>Weightlifting & Strength</p>

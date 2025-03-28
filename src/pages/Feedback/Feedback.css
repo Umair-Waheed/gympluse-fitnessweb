@@ -15,7 +15,6 @@
     overflow: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    background-color: rgba(0, 0, 0, 0.719);
     border-radius: 10px;
 }
 
@@ -49,9 +48,4 @@
 .arrow-buttons button:hover {
     color: red; /* Change color on hover for better visual feedback */
     transform: scale(1.1);
-}
-.newsletter{
-    display: flex;
-    justify-content: center;
-    
 }

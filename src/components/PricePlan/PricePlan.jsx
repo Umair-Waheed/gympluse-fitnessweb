@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./PricePlan.css"
-import tick from "../../assets/greentick.png"
+import {assets} from "../../assets/assets.js"
 const PricePlan = () => {
     const[isHoverd,setIsHovered]=useState(false);
   return (
@@ -22,22 +22,22 @@ const PricePlan = () => {
 
             <div className="accessibilities">
                 <div className="access  ">
-                    <img src={tick} alt="" />
+                    <img src={assets.tick} alt="" />
                     <p>Perfect for Beginners</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Free Basic Fitness Classes</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Locker Room Access</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>No Time Restriction</p>
                 </div>
                 
@@ -61,32 +61,32 @@ const PricePlan = () => {
 
             <div className="accessibilities">
                 <div className="access  ">
-                    <img src={tick} alt="" />
+                    <img src={assets.tick} alt="" />
                     <p>Include Basic Package Benefits</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Monthly Fitness Assessment</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Personalized Training</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Access To Advanced Equipments</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>No Time Restriction</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Our Shop Discounts</p>
                 </div>
 
@@ -111,37 +111,37 @@ const PricePlan = () => {
 
             <div className="accessibilities">
                 <div className="access  ">
-                    <img src={tick} alt="" />
+                    <img src={assets.tick} alt="" />
                     <p>Perfect for BodyBuilding</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Special Neutrition Consultation</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Locker & Shower Room Access</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>Daily Health CheckUp</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>VIP Services</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>No Time Restriction</p>
                 </div>
 
                 <div className="access">
-                <img src={tick} alt="" />
+                <img src={assets.tick} alt="" />
                 <p>More Discounts In Our Shop</p>
                 </div>
 

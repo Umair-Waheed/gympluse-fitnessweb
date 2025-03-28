@@ -1,9 +1,6 @@
 import React from 'react'
 import "./Benefit.css"
-import icon1 from "../../assets/gymmachine.png"
-import icon2 from "../../assets/nutritionplan.png"
-import icon3 from "../../assets/shopicon.png"
-import icon4 from "../../assets/proftraining.png"
+import { assets } from '../../assets/assets.js'
 const Benefit = () => {
   return (
     <div className='benefit-container'>
@@ -11,7 +8,7 @@ const Benefit = () => {
         <div className="cards-container">
         <div className='card'>
             <div className="logo">
-        <img src={icon1} alt="" />
+        <img src={assets.gymmachine} alt="" />
             </div>
             <div className="card-body">
                 <h2>Advanced Equipments</h2>
@@ -21,7 +18,7 @@ const Benefit = () => {
         </div>
         <div className='card'>
             <div className="logo">
-        <img src={icon2} alt="" />
+        <img src={assets.nutritionplan} alt="" />
             </div>
             <div className="card-body">
                 <h2>Best Nutrition Plan</h2>
@@ -31,7 +28,7 @@ const Benefit = () => {
         </div>
         <div className='card'>
             <div className="logo">
-        <img src={icon4} alt="" />
+        <img src={assets.shopicon} alt="" />
             </div>
             <div className="card-body">
                 <h2>Professional Training Plan</h2>
@@ -41,7 +38,7 @@ const Benefit = () => {
         </div>
         <div className='card'>
             <div className="logo">
-        <img src={icon3} alt="" />
+        <img src={assets.proftraining} alt="" />
             </div>
             <div className="card-body">
                 <h2>Our Shop</h2>
