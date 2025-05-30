@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div className="footer-logo ">
           <img src={assets.logo} alt="" />
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia suscipit repellendus ipsam, qui, illum odio obcaecati eius ducimus reprehenderit nemo aliquid, architecto deleniti nihil vel similique quos non earum voluptas.</p>
+          <p>GymPulse offers expert-led fitness programs, certified coaches, and an integrated store to explore and shop quality gym equipment all in one place.</p>
         </div>
 
         <div className="details">
@@ -28,7 +28,7 @@ const Footer = () => {
           <ul>
             <li>
               <img src={assets.phoneLogo} alt="" />
-              <p>+032 5465 8790</p>
+              <p>+92 3454658790</p>
             </li>
             <li>
               <img src={assets.mailLogo} alt="" />
