@@ -17,7 +17,7 @@ const Review = () => {
             <img src={assets.reviewStar} alt="" />
             </div>
                 <div className="person-review-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nisi laboriosam optio! Sit iste minima ex sequi eligendi, cum dolores qui exercitationem repellat, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sunt sed, delectus quaerat quam quod dolore repudiandae neque nobis iusto laudantium ipsam, obcaecati reprehenderit? Sunt accusamus veniam repellat blanditiis laudantium saepe molestias. Doloremque aspernatur tenetur voluptatibus corrupti, harum nesciunt! Commodi suscipit iste soluta enim optio dolorum id quaerat, assumenda non! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ducimus possimus nobis earum optio recusandae sit enim, ad facilis odio libero id accusantium maiores iure repudiandae nesciunt eveniet quaerat magni itaque sapiente explicabo? Non suscipit itaque exercitationem ea dolorum. Illo soluta eligendi dicta delectus, cumque totam magnam error ad ex.</p>
+                <p>GymPulse has completely transformed my fitness routine! The variety of programs, expert coaches, and the convenience of browsing gym equipment all in one place make it my go-to fitness platform.</p>
                 </div>
                 </div>
              
