@@ -28,6 +28,11 @@ This project focuses on clean design, smooth user experience, and responsiveness
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](./src/assets/gympulse-img.png)
+
  <!-- ## 🚀 Quick Start
 
 ```bash
@@ -55,3 +60,4 @@ Add workout tracker & nutrition plan section.
 Umair Waheed
 📧 [Email](umairmughal78601@gmail.com)
 🔗 [Linkedin](https://www.linkedin.com/in/umair-waheed1/)
+
